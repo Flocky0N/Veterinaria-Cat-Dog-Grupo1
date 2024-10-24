@@ -16,5 +16,10 @@ namespace Clave1_Veterinaria_Grupo1
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

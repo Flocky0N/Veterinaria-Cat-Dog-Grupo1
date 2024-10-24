@@ -35,6 +35,7 @@ namespace Clave1_Veterinaria_Grupo1
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -86,18 +87,29 @@ namespace Clave1_Veterinaria_Grupo1
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(217, 161);
+            this.button5.Location = new System.Drawing.Point(191, 161);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 5;
             this.button5.Text = "Inventario";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(298, 161);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.TabIndex = 6;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(419, 233);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -119,6 +131,7 @@ namespace Clave1_Veterinaria_Grupo1
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 
